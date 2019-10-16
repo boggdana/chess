@@ -1,0 +1,94 @@
+*{
+	transition: all .1s ease-in;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+	.background{
+		min-height: 100vh;
+background-color: #fff;
+		max-width: 100vh;
+		background-image: url('back.jpg');
+		background-size: cover; 
+		margin: auto;
+		position: relative;
+	}
+
+
+.content{
+		height: 40px;
+		width: 40px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.black{
+		background-image: url('black.png');
+		background-size: cover;
+	}
+
+	.black.one{
+		left: 120px;
+		top: 60px;
+	}
+
+	.black.two{
+		left: 240px;
+		top: 60px;
+	}
+
+	.black.three{
+		left: 360px;
+		top: 60px;
+	}
+
+	.black.four{
+		left: 480px;
+		top: 60px;
+	}
+
+	.black.five{
+		left: 60px;
+		top: 120px;
+	}
+
+	.black.six{
+		left: 180px;
+		top: 120px;
+	}
+
+	.black.seven{
+		left: 300px;
+		top: 120px;
+	}
+
+	.black.eight{
+		left: 420px;
+		top: 120px;
+	}
+
+	.black.nine{
+		left: 120px;
+		top: 180px;
+	}
+
+	.black.ten{
+		left: 300px;
+		top: 240px;
+	}
+
+	.black.eleven{
+		left: 360px;
+		top: 180px;
+
+	}
+
+	.black.twelve{
+		left: 480px;
+		top: 180px;
+
+	}
